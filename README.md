@@ -1,4 +1,4 @@
-# ![Rx_Logo_S](http://7xawtr.com1.z0.glb.clouddn.com/Rx_Logo_S.png) 响应式编程初探：RxJava
+# ![Rx_Logo_S](http://7xawtr.com1.z0.glb.clouddn.com/Rx_Logo_S.png) RxJava学习笔记
 
 RxJava是ReactiveX的Java语言版本实现。
 
