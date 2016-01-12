@@ -1,4 +1,4 @@
-# ![Rx_Logo_S](http://7xawtr.com1.z0.glb.clouddn.com/Rx_Logo_S.png) RxJava 12月培训讲义
+# ![Rx_Logo_S](http://7xawtr.com1.z0.glb.clouddn.com/Rx_Logo_S.png) RxJava 2015/12培训讲义
 
 说起RxJava，不得不首先提ReactiveX。
 
