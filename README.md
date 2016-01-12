@@ -1,6 +1,6 @@
-# ![Rx_Logo_S](http://7xawtr.com1.z0.glb.clouddn.com/Rx_Logo_S.png) RxJava学习笔记
+# ![Rx_Logo_S](http://7xawtr.com1.z0.glb.clouddn.com/Rx_Logo_S.png) RxJava 12月培训讲义
 
-RxJava是ReactiveX的Java语言版本实现。
+说起RxJava，不得不首先提ReactiveX。
 
 ReactiveX是一种响应式编程模型，全称：Reactive Extensions，由微软架构师领导的团队开发，并在2012年11月开源。目标是提供一致的编程接口，帮助开发者更方便地处理异步数据流，从而构建**响应式应用**。
 
@@ -32,7 +32,7 @@ Bruce Eckel（著有多部编程书籍）和Jonas Boner（Akka的缔造者和Typ
 ##### 多语言版本
 Rx在近几年逐渐流行起来，现在已经支持了大部分主流编程语言，比较流行的有RxJava、RxJS、ReactiveCocoa，另外，ReactiveX的Swift语言版本RxSwift现也在Github逐渐地完善起来。
 
-本节将要介绍的RxJava是ReactiveX的Java语言实现版本，着重讲解其在Android开发中的使用场景。
+本节将要介绍的**RxJava是ReactiveX的Java语言实现版本**，着重讲解其在Android开发中的使用场景。
 
 ### RxJava基础理论
 ##### 观察者模式
@@ -394,8 +394,7 @@ Observable.just("My", "Ope", "rator")
 - 如果对RxJava有了一定的了解并能够写一些Demo，强烈推荐阅读[官方文档](http://reactivex.io)，着重加强对RxJava丰富的操作符的掌握。
 - 如果掌握了RxJava的API和原理，则建议查看[Github](https://github.com/ReactiveX/RxJava)仓库，也许你能够为它贡献Pull Requests。
 
-##### 关于本文
-- 本文基于Markdown标记语言制作，使用了一款非常好用的在线Markdown工具：[dillinger](http://dillinger.io/)，可以随时在线保存以及导出HTML、Markdown源文件以及PDF格式。
+##### 关于本讲义
 - 3处图片资源和Case 1示例代码资源引用了[扔物线的RxJava博客](http://gank.io/post/560e15be2dca930e00da1083#toc_28)。
 - 其他示例图片皆来自[ReactiveX官方文档](http://reactivex.io)。
 - 概述的部分内容引用了[新兴趋势：反应性编程](http://www.infoq.com/cn/news/2013/08/reactive-programming-emerging/)。
