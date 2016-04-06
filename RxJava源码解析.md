@@ -84,7 +84,6 @@ RxJava的线程调度使用多种类别的ExecutorService实现，其中对应�
 Schedulers.io() -> newCachedThreadPool()
 Schedulers.computation() -> newScheduledThreadPool()
 Schedulers.newThread() -> newSingleThreadExecutor()
-```
 
 上述3种调度方式所创建的线程都是守护线程。
 
