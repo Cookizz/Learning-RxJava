@@ -31,6 +31,8 @@ int intMap(Map<Integer, Integer> map, int input) {
 int nine = intMap(square, 3);
 ```
 
+RxJava中有2种闭包：**Action**和**Func**，Action是Rx链的终点，即最末端的闭包；Func即函数，是真正意义上的函数闭包。**OnSubscribe**和**Subscriber**属于Action闭包（虽然Subscriber不继承自Action），**Operator**属于Func闭包。
+
 <br/>
 
 ## Rx调用模型
@@ -65,7 +67,7 @@ onSubscribe.parent.parent.parent
         .call(op1(op2(op3(subscriber))));
 ```
             
-一行代码
+**柯里化（Currying）**为一行语句
 
 ```java
 compositOperator(subscriber)
