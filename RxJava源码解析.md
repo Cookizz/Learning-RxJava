@@ -33,7 +33,7 @@ Java通过接口实现函数闭包。
 
 <br/>
 
-## 调用模型
+## Rx调用模型
 我们视野中的RxJava模型屏蔽了一切细节，看起来就是一系列操作按顺序拼接。
 
 ```java
@@ -85,7 +85,7 @@ Operator是一个Subscriber => Subscriber的高阶函数闭包，它的职能是
 
   <br/>
   
-## 调度模型
+## Rx调度模型
 RxJava的线程调度使用多种类别的ExecutorService实现，其中对应关系如下。
 
 ```java
