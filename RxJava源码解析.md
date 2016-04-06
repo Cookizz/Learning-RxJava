@@ -31,12 +31,12 @@ int intMap(Map<Integer, Integer> map, int input) {
 int nine = intMap(square, 3);
 ```
 
-RxJava中有2种闭包：**Action**和**Func**，Action是Rx链的终点，即最末端的闭包；Func即函数，是真正意义上的函数闭包。**OnSubscribe**和**Subscriber**属于Action闭包（虽然Subscriber不继承自Action），**Operator**属于Func闭包。
+RxJava中有2种闭包：**Action**和**Func**，Action是Rx链的端点，即最开始和最末端的闭包；Func即函数，是真正意义上的函数闭包。**OnSubscribe**和**Subscriber**属于Action闭包（虽然Subscriber不继承自Action），**Operator**属于Func闭包。
 
 <br/>
 
 ## Rx调用模型
-我们视野中的RxJava模型屏蔽了一切细节，看起来就是一系列操作按顺序拼接。
+我们视野中的RxJava模型屏蔽了一切细节，看起来就是一系列操作按顺序连接。
 
 ```java
 Observable.from(source)
