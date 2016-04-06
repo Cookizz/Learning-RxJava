@@ -149,12 +149,12 @@ OperatorSubscribeOn所做的唯一一件重要事情就是：将当前环节的o
 	@Override
 	public void onNext(final Observable<T> o) {
     	subscriber.add(scheduler.schedule(new Action1<Inner>() {
-        @Override
-        public void call(final Inner inner) {
-            o.unsafeSubscribe(subscriber);
-        }
-    }));
-}
+        	@Override
+        	public void call(final Inner inner) {
+         	   o.unsafeSubscribe(subscriber);
+        	}
+    	}));
+	}
 
 所以毫无疑问，当一条Rx链中有多个subscribeOn()，看起来起作用的总是第一个。
 
